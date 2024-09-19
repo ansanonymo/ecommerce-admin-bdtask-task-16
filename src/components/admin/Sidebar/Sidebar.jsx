@@ -70,12 +70,12 @@ const Sidebar = () => {
         {/** title */}
         <div className="text-gray-100 text-xl">
           <div className="p-2.5 mt-1 flex items-center justify-between">
-            <div className="p-2.5 mt-1 flex items-center">
+            <Link to="/" className="p-2.5 mt-1 flex items-center">
               <FaUserCircle className="text-3xl text-sky-600" />
               <h1 className="font-bold text-gray-200 text-[15px] ml-2">
                 Admin Panel
               </h1>
-            </div>
+            </Link>
             <label className="text-3xl" htmlFor="peer-sidebar">
               <IoMdClose />
             </label>
